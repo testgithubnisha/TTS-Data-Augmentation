@@ -1,0 +1,31 @@
+# Virtual Environment & System
+.venv_cosyvoice/
+.vscode/
+__pycache__/
+upload_to_hf.py
+
+# Models Hosted on Hugging Face
+pretrained_models/
+whisper_models/
+ascend_lora_training/
+whisper_runs/
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+
+# Datasets & Audio Outputs
+ascend_asr_output/
+ascend_step1/
+asr_prepared/
+asr_smoke_tests/
+batch_comparison/
+generated_audio/
+synthetic_pilot/
+voice_asr_studio_output/
+voice_asr_studio_uploads/
+voice_studio_output/
+*.wav
+*.mp3
+CosyVoice/
